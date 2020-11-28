@@ -14,7 +14,7 @@ class CurrentChance {
         UpdateBoard ub = new UpdateBoard();
         System.out.println(player + " choose a position from options : " + positions); //for showing remaining positions             
         int pos = vp.validPosition(positions, br);                
-        positions.remove(pos); //Update rema
+        positions.remove(pos); //Remove filled position from position set
         ub.updateBoard(board, pos, symbol);
     }
 }
