@@ -21,7 +21,7 @@ class PlayGame {
             }
         }
 
-        for(int i = 1; i < 10; i++) positions.add(i);        
+        for(int i = 1; i < 10; i++) positions.add(i);   //Adding valid positions in position set
 
         int chance = 1;
 
@@ -31,10 +31,12 @@ class PlayGame {
         for(int i = 0; i < 9 && !positions.isEmpty(); i++){                        
             pb.printBoard(board); //printing board
             if(chance % 2 == 1){                
-                CurrentChance.currentChance(firstPlayer, positions, br, first, board);
+                CurrentChance.currentChance(firstPlayer, positions, br, first, board); //Handel current chance
+                
                 if(iw.isWinner(board, first)) return (firstPlayer + " is winner! and " + secondPlayer + " is Looser!");
             }else{
-                CurrentChance.currentChance(secondPlayer, positions, br, second, board);
+                CurrentChance.currentChance(secondPlayer, positions, br, second, board); //Handel current chance
+                
                 if(iw.isWinner(board, second)) return (secondPlayer + " is winner! and " + firstPlayer + " is Looser!");
             }            
             chance++;
