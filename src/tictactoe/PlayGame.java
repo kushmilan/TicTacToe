@@ -33,11 +33,17 @@ class PlayGame {
             if(chance % 2 == 1){                
                 CurrentChance.currentChance(firstPlayer, positions, br, first, board); //Handel current chance
                 
-                if(iw.isWinner(board, first)) return (firstPlayer + " is winner! and " + secondPlayer + " is Looser!");
+                if(iw.isWinner(board, first)){
+                    pb.printBoard(board);
+                    return (firstPlayer + " is winner! and " + secondPlayer + " is Looser!");
+                } 
             }else{
                 CurrentChance.currentChance(secondPlayer, positions, br, second, board); //Handel current chance
                 
-                if(iw.isWinner(board, second)) return (secondPlayer + " is winner! and " + firstPlayer + " is Looser!");
+                if(iw.isWinner(board, second)){
+                    pb.printBoard(board);
+                    return (secondPlayer + " is winner! and " + firstPlayer + " is Looser!");
+                } 
             }            
             chance++;
         }
