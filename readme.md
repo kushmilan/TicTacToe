@@ -36,5 +36,10 @@
 $ git clone https://github.com/kushmilan/TicTacToe.git
 ```
 
-- Open the whole project in VS-Code. Make sure that Java in installed in your system. Open src/TicTacToe.java and press right click and click on **run java**.
+- Open the whole project in VS-Code. Open src/tictactoe/TicTacToe.java and press right click and click on **run java**.
 ![Setup!](/images/7.png "Setup")
+
+
+## Pre-requisites
+
+- VS-Code and a working environment of Java.
