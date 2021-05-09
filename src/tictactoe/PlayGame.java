@@ -35,14 +35,14 @@ class PlayGame {
                 
                 if(iw.isWinner(board, first)){
                     pb.printBoard(board);
-                    return (firstPlayer + " is winner! and " + secondPlayer + " is Looser!");
+                    return ("Winner : " + firstPlayer + ", Looser : " + secondPlayer);
                 } 
             }else{
                 CurrentChance.currentChance(secondPlayer, positions, br, second, board); //Handel current chance
                 
                 if(iw.isWinner(board, second)){
                     pb.printBoard(board);
-                    return (secondPlayer + " is winner! and " + firstPlayer + " is Looser!");
+                    return ("Winner : " + secondPlayer + ", Looser : " + firstPlayer);
                 } 
             }            
             chance++;

@@ -8,7 +8,7 @@
 - Any wrong move or selection of position which is not in the option will not be considered as valid move.
 - First user to get three symbols of his/her own in a row/column/diagonal wins.
 
-# Screenshot from the game
+## Screenshot from the game
 
 - Starting of the game 
 ![Start!](/images/1.JPG "start")
@@ -27,3 +27,8 @@
 
 - Winner 
 ![Winner!](/images/6.JPG "Winner")
+
+
+## Game setup 
+
+- To get the game running locally us this command at the location you want to store the game files.
