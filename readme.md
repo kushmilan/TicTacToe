@@ -31,4 +31,9 @@
 
 ## Game setup 
 
-- To get the game running locally us this command at the location you want to store the game files.
+- To get the game running locally use this command at the location you want to store the game files.
+```
+$ git clone https://github.com/kushmilan/TicTacToe.git
+```
+
+- Open the whole project in VS-Code. Make sure that Java in installed in your system. Open src/TicTacToe.java and press right click and click on **run java**.
