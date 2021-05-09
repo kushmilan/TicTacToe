@@ -12,3 +12,18 @@
 
 - Starting of the game 
 ![Start!](/images/1.JPG "start")
+
+- Enter your name and choose your symbol
+![Choose name!](/images/2.JPG "Choose name and symbol")
+
+- Options for valid positions and first player's turn
+![First!](/images/3.JPG "First player's ture")
+
+- Options for valid positions and second player's turn
+![Second!](/images/4.JPG "Second player's ture")
+
+- In case of any invalid or already used position selection
+![Invalid!](/images/5.JPG "Use valid position")
+
+- Winner 
+![Winner!](/images/6.JPG "Winner")
